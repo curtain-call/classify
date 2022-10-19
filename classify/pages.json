@@ -1,0 +1,120 @@
+{
+	"pages": [{
+			"path": "pages/homepage",
+			"style": {
+				"titleNView": false // 去掉APP、H5的顶部导航
+			}
+		},
+		{
+			"path": "pages/picture",
+			"style": {
+				"titleNView": false // 去掉APP、H5的顶部导航
+			}
+		},
+		{
+			"path": "pages/cloud",
+			"style": {
+				"titleNView": false // 去掉APP、H5的顶部导航
+			}
+		},
+		{
+			"path": "pages/user",
+			"style": {
+				"titleNView": false // 去掉APP、H5的顶部导航
+			}
+		}
+
+		, {
+			"path": "pages/file/file",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/privacy/privacy"
+		}
+
+		, {
+			"path": "pages/load/load",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/bailan/bailan"
+		},
+		{
+			"path": "pages/bailan/heihei/heihei"
+		}
+	    ,{
+            "path" : "pages/album/album",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+
+	"tabBar": {
+		"position": "bottom",
+		"color": "#87877B",
+		/*文字颜色*/
+		"selectedColor": "C2C2B2",
+		/*选择后颜色*/
+		"borderStyle": "black",
+		/*上边框颜色*/
+		"backgroundColor": "#F5EFCE",
+		"height": "60px",
+		/*导航栏底色*/
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/homepage",
+			/*页面地址*/
+			"iconPath": "static/homepage.png",
+			"selectedIconPath": "static/select_homepage.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/picture",
+			/*页面地址*/
+			"iconPath": "./static/picture.png",
+			"selectedIconPath": "./static/select picture.png",
+			"text": "相册"
+		}, {
+			"pagePath": "pages/cloud",
+			/*页面地址*/
+			"iconPath": "./static/cloud.png",
+			"selectedIconPath": "./static/select_cloud.png",
+			"text": "云盘"
+		}, {
+			"pagePath": "pages/user",
+			/*页面地址*/
+			"iconPath": "static/user.png",
+			"selectedIconPath": "./static/select_user.png",
+			"text": "用户"
+		}],
+		"midButton": {
+			"width": "110px",
+			"height": "73px",
+			"text": "相机",
+			"spacing": "2px",
+			"iconPath": "./static/camera.png",
+			"iconWidth": "50px",
+			"backgroundImage": "static/image/midButton_backgroundImage.png"
+		}
+
+	}
+}
